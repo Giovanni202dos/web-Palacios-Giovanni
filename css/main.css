@@ -70,15 +70,25 @@ header .header-icons-container .icons span {
 header .header-icons-container .icons span:hover {
    color: #48cfad;
 }
-
+                              /*##########################          index             ##########################*/
 .home-main {
     display: grid;
     grid-template-columns:  1fr 4fr 1fr;
     height: 600px;
-    background-image:  url('../assets/img/fondo.jpg');
+    /*background-image:  url('../assets/img/fondo.jpg'); imagen de fondo en desuso*/
+    background-color: #0d0f0f;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border: #e6e9ed solid;
+ }
+
+ .home-divv{
+   border: #094e3d solid;
+   height: 1000px;
+ }
+ .footer-main{
+   border: #47cfac solid;
  }
 
  
@@ -88,6 +98,7 @@ header .header-icons-container .icons span:hover {
     justify-items: center;
     height: 350px;
     margin-top: 80px;
+    border: #197706 solid;
  }
 
  .home-main-text {
