@@ -185,6 +185,25 @@ header .header-icons-container .icons span:hover {
     color: black;
  }
 
+ /*   La sesion de conctatame*/
+.contactamee{
+   text-align: center;
+}
+
+.contactame-container{
+   border: #420c30 solid;;
+   display: grid;
+   grid-template-columns: 1fr 4fr 1fr;
+   width: 100%;
+   height: 1000px;
+   background-color: #0d0f0f;
+}
+.contactame-container div{
+   border: #48cfad solid;
+   grid-column: 2;
+   background-color: #101111;
+}
+
                               /*##########################       fin  blogs             ##########################*/
 
 
