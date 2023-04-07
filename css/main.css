@@ -204,90 +204,68 @@ header .header-icons-container .icons span:hover {
    color: #e6e9ed;
    margin-left: 43%;
 }
-/*    ##############  sobre mi      ##########################*/
+                              /*##########################      fin de sobre mi             ##########################*/
+
+
+                              /*##########################      proyectos             ##########################*/
+.proyectos-main {
+   background-color: #0d0f0f;
+   border: #197706 solid;
+}
+
+.proyectos-subtitulo{
+   color: #e6e9ed;
+   text-align: center;
+}
+
+.grid-container-proyectos {
+   max-width: 980px;
+   margin: auto;
+   border: #e70d9e solid;
+}
+
+.post-container {
+   color: #e6e9ed;
+   border: #3f0a5e solid;
+}
+
+
+
+/*especie de animacion para la imagenes del curso*/
+.post-container img:hover {
+  border: 5px solid #47cfac ;
+}
+
+.grid-container-proyectos .post-container {
+   display: inline-block;
+   padding-left: 10px;
+   max-width: 30%;
+   margin-bottom: 50px;
+   
+}
+
+.proyectos-posts-container .post-container p {
+   margin-bottom: 35px;
+
+}
+
+.proyectos-posts-container .post-container img {
+   width: 100%;
+}
+
+                              /*##########################     fin de proyectos             ##########################*/
+
+                               /*##########################      footer             ##########################*/
 footer {
-    width: 100%;
-    height: 80px;
-    background-color: #0d0f0f;
-    border-top: 35px solid #47cfac;
-    text-align: center;
+   width: 100%;
+   height: 80px;
+   background-color: #0d0f0f;
+   border-top: 35px solid #47cfac;
+   text-align: center;
 }
 
 footer p {
-    color: white;
-    margin-top: 30px;
+   color: white;
+   margin-top: 30px;
 }
-
-
-
-.blog-main {
-    display: grid;
- }
-
- .blog-news-container {
-    background-color: #e6e9ed;
-    padding: 0 50px 40px;
- }
-
- .blog-main-new {
-    display: grid;
-    grid-template-columns: auto auto;
-    margin-top: 20px;
-    
- }
-
- .blog-news-img-container {
-    /*border: solid #22272d;*/
-    margin-top: 40px;
-    
- }
-
- .blog-news-info-container {
-    /*border: solid #22272d;*/
-    margin-top: 30px;
-    margin-left: 10px;
- }
-
- .blog-intermedio-container {
-    padding: 20px 20px 20px;
-    text-align: center;
- }
-
- .blog-intermedio2-container {
-    padding: 0 50px 40px;
- }
-
-.grid-intermedio2-container{
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
-
-
-.blog-final-container{
-    background-color: #e6e9ed;
-    padding: 0 50px 150px;
-}
-
-.grid-final-container{
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-.sugerencias-de-contacto{
-    display: grid;
-    grid-template-columns: auto auto;
-    margin-top: 40px;
-    margin-left: 40px;
-}
-
-.contenedor-de-img{
-    margin-top: 10px;
-}
-
-
-
-
-
-
-
-
+                               /*##########################    fin del footer             ##########################*/
