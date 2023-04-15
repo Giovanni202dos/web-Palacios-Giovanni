@@ -78,6 +78,10 @@ header .header-icons-container .icons span:hover {
 .nav-menuu a{
    color: white;
 }
+
+.nav-menuu li a:hover{
+   color: #47cfac;
+}
                               /*##########################         fin menu             ##########################*/
 
 
