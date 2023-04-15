@@ -3,6 +3,9 @@ body {
     font-family: 'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
+    background-image:  url('../assets/img/fondo.jpg'); 
+    background-repeat: no-repeat;
+	 background-size: cover;
 }
 
 a {
@@ -93,8 +96,8 @@ header .header-icons-container .icons span:hover {
     display: grid;
     grid-template-columns:  1fr 4fr 1fr;
     height: 600px;
-    /*background-image:  url('../assets/img/fondo.jpg'); imagen de fondo en desuso*/
-    background-color: #0d0f0f;
+    
+    /*background-color: #0d0f0f;*/
     background-position: center;
     background-size: cover;
     /*border: #e6e9ed solid;*/
@@ -139,6 +142,15 @@ header .header-icons-container .icons span:hover {
     background-color: #48cfad;
     color: #141a18;
  }
+ .container-sobre-mi{
+   padding: 0 50px 40px;
+   background-color: #171d1b;
+   opacity: 50%;
+ }
+ .container-sobre-mi:hover{
+   opacity: 100%;
+ }
+
 
                               /*##########################         fin index             ##########################*/
 
@@ -154,7 +166,8 @@ header .header-icons-container .icons span:hover {
     /*background-color: #e6e9ed;*/
     background-color: #0d0f0f;
     padding: 0 50px 40px;
-    /*border: #e70d9e solid;*/
+    
+    /*border: #221f21 solid;*/
  }
 
  .blogs-main-new {
@@ -327,9 +340,7 @@ footer p {
                                /*##########################    fin pagina de pelicula             ##########################*/
 
                                /*##########################    contactame           ##########################*/
- .contactamee{
-   text-align: center;
-}
+
 
 .contactame-container{
    /*border: #0004ff solid;;*/
