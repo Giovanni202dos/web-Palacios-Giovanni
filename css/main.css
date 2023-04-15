@@ -92,11 +92,11 @@ header .header-icons-container .icons span:hover {
     background-color: #0d0f0f;
     background-position: center;
     background-size: cover;
-    border: #e6e9ed solid;
+    /*border: #e6e9ed solid;*/
  }
 
  .footer-main{
-   border: #47cfac solid;
+   /*border: #47cfac solid;*/
  }
 
  
@@ -106,7 +106,7 @@ header .header-icons-container .icons span:hover {
     justify-items: center;
     height: 350px;
     margin-top: 80px;
-    border: #197706 solid;
+    /*border: #197706 solid;*/
  }
 
  .home-main-text {
@@ -126,6 +126,7 @@ header .header-icons-container .icons span:hover {
     font-size: 18px;
     line-height: 50px;
     color: #e6e9ed;
+    border: #48cfad solid;
     
  }
 /* animacion para cuando pasa por encima el puntero*/
@@ -141,26 +142,26 @@ header .header-icons-container .icons span:hover {
 
  .blogs-main {
     display: grid;
-    border: #197706 solid;
+    /*border: #197706 solid;*/
  }
 
  .blogs-news-container {
     /*background-color: #e6e9ed;*/
     background-color: #0d0f0f;
     padding: 0 50px 40px;
-    border: #e70d9e solid;
+    /*border: #e70d9e solid;*/
  }
 
  .blogs-main-new {
     display: grid;
     grid-template-columns: 2fr 1fr;
     color: #e6e9ed;
-    border: #062077 solid;
+    /*border: #062077 solid;*/
  }
 
  .blogs-news-img-container {
     grid-column: 1;
-    border: #770615 solid;
+    /*border: #770615 solid;*/
  }
 
  .blogs-news-img-container img {
@@ -172,7 +173,7 @@ header .header-icons-container .icons span:hover {
  }
 
  .blogs-button {
-    border: 1px solid #47cfac;
+    /*border: 1px solid #47cfac;*/
     padding:  10px 15px;
     text-align: center;
     color: #e6e9ed;
@@ -212,7 +213,7 @@ header .header-icons-container .icons span:hover {
                               /*##########################      proyectos             ##########################*/
 .proyectos-main {
    background-color: #0d0f0f;
-   border: #197706 solid;
+   /*border: #197706 solid;*/
 }
 
 .proyectos-subtitulo{
@@ -223,19 +224,19 @@ header .header-icons-container .icons span:hover {
 .grid-container-proyectos {
    max-width: 980px;
    margin: auto;
-   border: #e70d9e solid;
+   /*border: #e70d9e solid;*/
 }
 
 .post-container {
    color: #e6e9ed;
-   border: #3f0a5e solid;
+   /*border: #3f0a5e solid;*/
 }
 
 
 
 /*especie de animacion para la imagenes del curso*/
 .post-container img:hover {
-  border: 5px solid #47cfac ;
+  /*border: 5px solid #47cfac ;*/
 }
 
 .grid-container-proyectos .post-container {
@@ -276,7 +277,7 @@ footer p {
 
  .post-container-peliculas {
    color: #e6e9ed;
-   border: #4aee09 solid;
+   /*border: #4aee09 solid;*/
    display: grid;
    grid-template-columns: 1fr 1fr;
 }
@@ -294,7 +295,7 @@ footer p {
 }
 
 .contactame-container{
-   border: #0004ff solid;;
+   /*border: #0004ff solid;;*/
    display: grid;
    grid-template-columns: 1fr 4fr 1fr;
    width: 100%;
@@ -302,7 +303,7 @@ footer p {
    background-color: #0d0f0f;
 }
 .contactame-container div{
-   border: #48cfad solid;
+   /*border: #48cfad solid;*/
    grid-column: 2;
    background-color: #101f1f;
    display: grid;
@@ -311,7 +312,7 @@ footer p {
 }
 
 .formulario-contactame{
-   border: #4aee09 solid 3px;
+   /*border: #4aee09 solid 3px;*/
    grid-column: 2/4;
    height: 50%;
    margin-top: 25%;
@@ -330,3 +331,5 @@ footer p {
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
 }
+
+
