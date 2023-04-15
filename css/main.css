@@ -177,6 +177,7 @@ header .header-icons-container .icons span:hover {
     padding:  10px 15px;
     text-align: center;
     color: #e6e9ed;
+    border: #47cfac solid;
  }
 
 .blogs-button:hover {
@@ -332,4 +333,7 @@ footer p {
    grid-template-columns: 1fr 1fr 1fr;
 }
 
+.contactame-container .formulario-contactame h3{
+   text-align: center;
+}
 
