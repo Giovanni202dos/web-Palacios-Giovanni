@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/font/flaticon.css">
-    <title>Mi Blog</title>
+    <title>Proyectos</title>
 </head>
 <body>
     <header>
@@ -22,33 +22,35 @@
     </header>
 
     <nav class="nav-menuu">
-        <li><a href="#Sobre_mi">Sobre mi</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="sobre mi.html">sobre mi</a></li>
         <li><a href="blogs.html">contactame</a></li>
     </nav>
+    
+    <main class="proyectos-main">
 
-    <main class="home-main">
-        <section>
-            <h1 class="home-main-text">Bienvenido!! <br> este es mi blog</h1>
-            <a class="home-main-button" href="blogs.html">Entra ya!</a>
+        <section class="proyectos-subtitulo">
+            <h2>Pagina de reseñas de peliculas(100% HTML y CSS)</h2>
+        </section>
+
+        <section class="proyectos-posts-container">
+            <div class="grid-container-proyectos">
+             
+                <article class="post-container-peliculas">
+                    <a href=""><img src="assets/img/image-1-pagina-peli.png" alt=""></a>
+                    <a href=""><img src="assets/img/image-2-pagina-peli.png" alt=""></a>
+                    <p id="Primeroo">Paginas de reseñas de peliculas</p>
+                    <p id="Primeroo">Como bien dice el titulo es una pagina de reseñas de peliculas, aún no esta terminada. mi idea es conectarla con una api de peliculas</p>
+                </article>
+            
+            </div>
         </section>
     </main>
 
-    <section class="blogs-news-container" id="Sobre_mi">
-        <div class="grid-container blogs-main-new" id="Sobre-mi">
-            <h3>Sobre mi</h3>
-            <div class="blogs-news-img-container">
-                <img src="assets/img/sobre mi.PNG">
-            </div>
-
-            <div class="blogs-news-info-container">
-                <h2>Palacios Giovanni Andres</h2>
-                <a href="sobre mi.html" class="blogs-button"> Leer mas</a>
-            </div>
-        </div>
-    </section>
-
-    <footer class="footer-main">
+    <footer>
         <p>Pagina hecha con HTML y CSS</p>
     </footer>
+    
 </body>
 </html>

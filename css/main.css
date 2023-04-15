@@ -185,24 +185,7 @@ header .header-icons-container .icons span:hover {
     color: black;
  }
 
- /*   La sesion de conctatame*/
-.contactamee{
-   text-align: center;
-}
 
-.contactame-container{
-   border: #420c30 solid;;
-   display: grid;
-   grid-template-columns: 1fr 4fr 1fr;
-   width: 100%;
-   height: 1000px;
-   background-color: #0d0f0f;
-}
-.contactame-container div{
-   border: #48cfad solid;
-   grid-column: 2;
-   background-color: #101111;
-}
 
                               /*##########################       fin  blogs             ##########################*/
 
@@ -288,3 +271,62 @@ footer p {
    margin-top: 30px;
 }
                                /*##########################    fin del footer             ##########################*/
+
+                               /*##########################    pagina de pelicula             ##########################*/
+
+ .post-container-peliculas {
+   color: #e6e9ed;
+   border: #4aee09 solid;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+.post-container-peliculas a img{
+   width: 95%;
+}
+#Primeroo{
+   grid-column: 1/3;
+}
+                               /*##########################    fin pagina de pelicula             ##########################*/
+
+                               /*##########################    contactame           ##########################*/
+ .contactamee{
+   text-align: center;
+}
+
+.contactame-container{
+   border: #0004ff solid;;
+   display: grid;
+   grid-template-columns: 1fr 4fr 1fr;
+   width: 100%;
+   height: 500px;
+   background-color: #0d0f0f;
+}
+.contactame-container div{
+   border: #48cfad solid;
+   grid-column: 2;
+   background-color: #101f1f;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   color: #e6e9ed;
+}
+
+.formulario-contactame{
+   border: #4aee09 solid 3px;
+   grid-column: 2/4;
+   height: 50%;
+   margin-top: 25%;
+}
+.formulario-contactame label{
+   display: block;
+   height: 25px;
+}
+.formulario-contactame input{
+   width: 100%;
+}
+.formulario-contactame textarea{
+   width: 100%;
+}
+.grid-container-proyectos-contactame{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}

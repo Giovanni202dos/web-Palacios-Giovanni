@@ -24,7 +24,7 @@
     <nav class="nav-menuu">
         <li><a href="index.html">Home</a></li>
         <li><a href="#Proyectos">Proyectos</a></li>
-        <li><a href="">contacto</a></li>
+        <li><a href="#contactamee">contactame</a></li>
     </nav>
 
     <main class="blogs-main">
@@ -37,7 +37,7 @@
 
                 <div class="blogs-news-info-container" id="Proyectos">
                     <h2>Mi proyectos personales</h2>
-                    <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
+                    <p>Aqui se encuentran algunos de mis proyectos.</p>
                     <a href="proyectos.html" class="blogs-button"> Leer mas</a>
                 </div>
             </div>
@@ -45,12 +45,23 @@
 
         <section class="contactame-container">
             <div>
-
+                <form class="formulario-contactame">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                
+                    <button type="submit">Enviar</button>
+                </form>
             </div>
         </section>
-
+        
         <section class="blogs-news-container">
-            <div class="grid-cliente">
+            <div class="grid-cliente" id="contactamee">
                 <h3>Clientes</h3>
 
                 <a href=""><div class="imagenes-clientes">
