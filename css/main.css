@@ -82,6 +82,7 @@ header .header-icons-container .icons span:hover {
 .nav-menuu li a:hover{
    color: #47cfac;
 }
+
                               /*##########################         fin menu             ##########################*/
 
 
@@ -219,6 +220,7 @@ header .header-icons-container .icons span:hover {
 .proyectos-main {
    background-color: #0d0f0f;
    /*border: #197706 solid;*/
+   border: #0d0f0f solid;  /*atencionn*/
 }
 
 .proyectos-subtitulo{
@@ -235,6 +237,10 @@ header .header-icons-container .icons span:hover {
 .post-container {
    color: #e6e9ed;
    /*border: #3f0a5e solid;*/
+}
+
+.grid-container-proyectos .post-container a img:hover{
+   border: #47cfac solid;
 }
 
 
