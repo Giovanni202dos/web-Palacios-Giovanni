@@ -75,16 +75,7 @@ header .header-icons-container .icons span:hover {
 }
 
                               /*##########################          menu responsive            ##########################*/
-/* .nav-menuu{
-   background-color: #0d0f0f;
-}
-.nav-menuu a{
-   color: white;
-}
 
-.nav-menuu li a:hover{
-   color: #47cfac;
-} */
 #menu ul {
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -92,11 +83,7 @@ header .header-icons-container .icons span:hover {
    color: #47cfac;
 } 
 
-#menu ul li{
-   border: red solid 2px;
-} 
 #menu ul li a{
-   border: gold solid 2px;
    color: white;
 }
 #menu{
