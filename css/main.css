@@ -74,8 +74,8 @@ header .header-icons-container .icons span:hover {
    color: #48cfad;
 }
 
-                              /*##########################          menu             ##########################*/
-.nav-menuu{
+                              /*##########################          menu responsive            ##########################*/
+/* .nav-menuu{
    background-color: #0d0f0f;
 }
 .nav-menuu a{
@@ -84,6 +84,41 @@ header .header-icons-container .icons span:hover {
 
 .nav-menuu li a:hover{
    color: #47cfac;
+} */
+#menu ul {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   background-color: #0d0f0f;
+   color: #47cfac;
+} 
+
+#menu ul li{
+   border: red solid 2px;
+} 
+#menu ul li a{
+   border: gold solid 2px;
+   color: white;
+}
+#menu{
+   background-color: #0d0f0f;
+   border: #0d0f0f solid 2px;
+} 
+
+#boton-menu{
+   display: none;  /*ek boton esta oculto*/
+}
+@media screen and (max-width: 360px) {
+   #menu ul {
+     display: none;
+     color: #47cfac;
+   }
+   #menu.visible ul {
+       display: block;
+   }
+   #boton-menu{    /*aparece el boton al lado derecho*/
+       display: inline-block;
+       margin-left: 90%;
+   }
 }
 
                               /*##########################         fin menu             ##########################*/
